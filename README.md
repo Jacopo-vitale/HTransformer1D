@@ -21,6 +21,8 @@ If the Clinical grade is greater or equal to 2 patient is labeled as _*Severe*_ 
 </p>
 
 So the whole architecture is similar to a _Visual Transformer_ for classification tasks. 
+The _core_ of the system is the **Transformer**. This _Deep Learning_ system is based on the paper [Zhu and Soricut](https://doi.org/10.48550/arXiv.2107.11906). 
+This architecture is being modified in oder to be able to classify long sequence of data (8684 genes for men patients).
 
 # Results
 MCC Score based results listed here below.
